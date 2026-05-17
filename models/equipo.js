@@ -13,6 +13,10 @@ const equipoSchema = new mongoose.Schema({
     anioFundacion: {
         type: Number
     },
+    esActivo: {
+        type: Boolean,
+        default: true
+    },
     categoria: {
         type: String
     }
