@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { expect } = require('chai');
-const Jugador = require('../models/Jugador');
-const Equipo = require('../models/Equipo');
+const Jugador = require('../models/jugador');
+const Equipo = require('../models/equipo');
 
 describe('Modelo Jugador', () => {
   let equipoId;

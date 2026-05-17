@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const { expect } = require('chai');
-const Equipo = require('../models/Equipo');
+const Equipo = require('../models/equipo');
 
 describe('Modelo Equipo', () => {
   before(async () => {
